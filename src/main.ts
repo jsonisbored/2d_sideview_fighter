@@ -1,5 +1,5 @@
 import P5 from "p5";
-import * as a from "p5/lib/addons/p5.dom";
+import "p5/lib/addons/p5.dom";
 
 const sketch = (p5: P5) => {
     p5.setup = () => {
@@ -10,7 +10,7 @@ const sketch = (p5: P5) => {
     };
 
     p5.draw = () => {
-        
+        p5.rect(100, 100, 50, 50);
     };
 };
 

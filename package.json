@@ -1,23 +1,21 @@
 {
-    "name": "2d-sideview-fighter",
-    "version": "1.0.0",
-    "description": "idk",
-    "type": "module",
-    "main": "dist/main.js",
-    "source": "src/main.ts",
-    "module": "dist/module.js",
-    "types": "dist/types.d.ts",
-    "scripts": {
-        "watch": "parcel watch",
-        "start": "parcel index.html --open",
-        "build": "parcel build"
-    },
-    "dependencies": {
-        "@types/two.js": "^0.7.5",
-        "p5": "^1.4.0",
-        "wecs": "^6.0.0"
-    },
-    "devDependencies": {
-        "parcel": "^2.0.1"
-    }
+  "name": "p5js-with-typescript",
+  "version": "1.0.0",
+  "description": "A template for a p5.js sketch using Typescript",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/p5": "0.9.0",
+    "p5": "0.9.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "p5js",
+    "typescript"
+  ]
 }

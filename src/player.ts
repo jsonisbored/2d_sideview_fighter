@@ -1,5 +1,5 @@
 import { config } from "./config";
-import { makeSprite } from "./sprite";
+// import { makeSprite } from "./sprite";
 
 export class Player {
     constructor(

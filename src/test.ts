@@ -35,7 +35,7 @@ class Input {
 world.register(
     function movement(entities) {
         for (const e of entities) {
-            if ()
+            // if ()
         }
     }
 );
