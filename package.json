@@ -1,0 +1,23 @@
+{
+    "name": "2d-sideview-fighter",
+    "version": "1.0.0",
+    "description": "idk",
+    "type": "module",
+    "main": "dist/main.js",
+    "source": "src/main.ts",
+    "module": "dist/module.js",
+    "types": "dist/types.d.ts",
+    "scripts": {
+        "watch": "parcel watch",
+        "start": "parcel index.html --open",
+        "build": "parcel build"
+    },
+    "dependencies": {
+        "@types/two.js": "^0.7.5",
+        "p5": "^1.4.0",
+        "wecs": "^6.0.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.0.1"
+    }
+}
